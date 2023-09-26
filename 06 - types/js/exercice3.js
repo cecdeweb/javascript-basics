@@ -6,3 +6,7 @@ interagissent en JavaScript.
 5. Utilisez la conversion de types pour concaténer `message` et `total` pour afficher un message complet 
 dans la console.
  */
+let total = 1200;
+let message = 'la valeur est de ';
+let totalStr = String(total);
+console.log(message + totalStr);
