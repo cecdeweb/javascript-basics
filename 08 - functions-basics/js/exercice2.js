@@ -10,12 +10,18 @@ utilisant des méthodes de chaînes natives. */
 
 let sentence = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos beatae modi dolores.";
 let countW = 0;
+let splitSentence = "";
 let invertSentence = "";
 function countWords(s){
-    countW = sentence.split(" ").length;    
+    countW = s.split(" ").length;  
     console.log(countW);
 }
 function invertWords(s){
-    
+    splitSentence = s.split(" ");  
+    for(i=splitSentence.length;i>=0;i--){
+        invertSentence += splitSentence[i] + " ";
+    }
+    console.log(invertSentence);
 }
 countWords(sentence);
+invertWords(sentence);
