@@ -26,17 +26,6 @@ Cet exercice vous permettra d'utiliser la structure `switch` pour afficher la sa
 
 4. Utilisez la structure `switch` pour afficher la saison correspondante dans la console.
 
-## Exercice 3 : Langages de Programmation
-
-Dans cet exercice, vous allez créer une liste de langages de programmation et utiliser la structure `switch` pour afficher des informations sur un langage en fonction de son nom.
-
-1. Ouvrez le fichier `exercice3.js` dans votre éditeur de code.
-
-2. Vous trouverez un commentaire indiquant où écrire votre code.
-
-3. Créez une variable `langage` et attribuez-lui le nom d'un langage de programmation.
-
-4. Utilisez la structure `switch` pour afficher des informations sur le langage sélectionné, telles que sa popularité, son utilisation, ou toute autre information pertinente, dans la console.
 
 
 # Partie 2 - Aller plus loin
